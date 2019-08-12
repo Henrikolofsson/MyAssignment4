@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loggainbakgrund"
+    android:orientation="vertical"
+    tools:context="Fragments.StartFragment">
+
+    <TextView
+        android:id="@+id/tvYouWalked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_have_walked"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvShowSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvStepsToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="steps today"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+</LinearLayout>
